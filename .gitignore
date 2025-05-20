@@ -1,0 +1,11 @@
+/work_area*
+composer.*
+/Python*
+*.output
+/vendor
+/bkdir
+*.pyc
+minecraft_server/ 
+~/.config/tailscale/
+/tmp/tailscaled.log
+backup_settings.json
