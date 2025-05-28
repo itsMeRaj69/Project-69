@@ -5,7 +5,7 @@ import subprocess
 RAM = "2G"
 
 # Server setup
-server_dir = "/workspaces/Haggupur/minecraft_server/"
+server_dir = "/workspaces/githubusername/minecraft_server/"
 jar_file = "paper.jar"
 jar_path = os.path.join(server_dir, jar_file)
 eula_path = os.path.join(server_dir, "eula.txt")
