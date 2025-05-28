@@ -203,7 +203,7 @@ def zip_folder(folder_path, zip_path):
                 relative_path = os.path.relpath(file_path, folder_path)
                 zipf.write(file_path, arcname=relative_path)
 
-def upload_to_dropbo(file_path, dropbox_path):
+def upload_to_dropbox(file_path, dropbox_path):
     """Upload a file to Dropbo, overwriting if it exists."""
     try:
         CHUNK_SIZE = 4 * 1024 * 1024  # 4MB chunk size for large files
