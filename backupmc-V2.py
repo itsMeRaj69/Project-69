@@ -188,8 +188,8 @@ if not SERVER_FOLDER_PATH:
     first_time_folder_setup()
 
 # Paths to Minecraft server files
-TEMP_BACKUP_PATH = os.path.join(os.getcwd(), 'temp_backup')
-TEMP_RESTORE_PATH = os.path.join(os.getcwd(), 'temp_restore')
+TEMP_BACKUP_PATH = os.path.join(os.getcwd(), 'tmp_backup')
+TEMP_RESTORE_PATH = os.path.join(os.getcwd(), 'tmp_restore')
 
 # Create a Dropbox client
 dbx = dropbox.Dropbox(ACCESS_TOKEN)
