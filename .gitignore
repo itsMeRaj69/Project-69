@@ -5,6 +5,7 @@ composer.*
 /vendor
 /bkdir
 *.pyc
+.devcontainer/
 minecraft_server/ 
 ~/.config/tailscale/
 /tmp/tailscaled.log
